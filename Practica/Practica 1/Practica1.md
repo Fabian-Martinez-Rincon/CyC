@@ -1,28 +1,5 @@
 # Practica 1
 
-- [Ejercicio 1](#ejercicio-1)
-- [Ejercicio 2](#ejercicio-2)
-- [Ejercicio 3](#ejercicio-3)
-- [Ejercicio 4](#ejercicio-4)
-- [Ejercicio 5](#ejercicio-5)
-- [Ejercicio 6](#ejercicio-6)
-- [Ejercicio 7](#ejercicio-7)
-- [Ejercicio 8](#ejercicio-8)
-- [Ejercicio 9](#ejercicio-9)
-- [Ejercicio 10](#ejercicio-10)
-- [Ejercicio 11](#ejercicio-11)
-- [Ejercicio 12](#ejercicio-12)
-- [Ejercicio 13](#ejercicio-13)
-- [Ejercicio 14](#ejercicio-14)
-- [Ejercicio 15](#ejercicio-15)
-- [Ejercicio 16](#ejercicio-16)
-- [Ejercicio 17](#ejercicio-17)
-- [Ejercicio 18](#ejercicio-18)
-- [Ejercicio 19](#ejercicio-19)
-
-
-
-
 ### Ejercicio 1
 
 ![Alt text](image.png)
@@ -79,27 +56,27 @@ Estos son los conjuntos de partes para cada uno de los conjuntos dados en el eje
 ### Ejercicio 7
 
 ![Alt text](image-6.png)
-
+![Alt text](image-27.png)
 
 
 ---
 ### Ejercicio 8
 
 ![Alt text](image-7.png)
-
-
+![Alt text](image-28.png)
 
 ---
 ### Ejercicio 9
 
 ![Alt text](image-8.png)
-
+![Alt text](image-29.png)
 
 
 ---
 ### Ejercicio 10
 
 ![Alt text](image-9.png)
+![Alt text](image-30.png)
 
 
 
@@ -107,29 +84,30 @@ Estos son los conjuntos de partes para cada uno de los conjuntos dados en el eje
 ### Ejercicio 11
 
 ![Alt text](image-10.png)
-
+![Alt text](image-31.png)
 
 
 ---
 ### Ejercicio 12
 
 ![Alt text](image-11.png)
-
-
+![Alt text](image-32.png)
 
 ---
+
 ### Ejercicio 13
 
 ![Alt text](image-12.png)
-
-
+![Alt text](image-33.png)
 
 ---
 ### Ejercicio 14
 
 ![Alt text](image-13.png)
 
+Para demostrar que dos conjuntos tienen la misma cardinalidad, debemos encontrar una biyección entre ellos. Una biyección es una función que es inyectiva y sobreyectiva
 
+![Alt text](image-34.png)
 
 ---
 ### Ejercicio 15
@@ -138,18 +116,28 @@ Estos son los conjuntos de partes para cada uno de los conjuntos dados en el eje
 
 
 
+Para determinar si el conjunto de todas las frases en el idioma español es contable o incontable, consideremos lo siguiente:
+
+1. El alfabeto español consta de un número finito de letras.
+2. Una frase en español es una secuencia finita de palabras, y cada palabra es una secuencia finita de letras del alfabeto español.
+3. Por lo tanto, el conjunto de todas las posibles palabras en español es contable, ya que podemos enumerarlas comenzando con palabras de una letra, luego palabras de dos letras, y así sucesivamente.
+4. Sin embargo, el conjunto de todas las frases en español es el conjunto de todas las secuencias posibles de palabras en español. Dado que no hay límite en la longitud de una frase, este conjunto es equivalente al conjunto de todas las secuencias de números naturales, que es incontable.
+
+Por lo tanto, el conjunto de todas las frases en el idioma español es **incontable**.
+
+
 ---
 ### Ejercicio 16
 
 ![Alt text](image-15.png)
-
-
+![Alt text](image-35.png)
+![Alt text](image-36.png)
 
 ---
 ### Ejercicio 17
 
 ![Alt text](image-16.png)
-
+![Alt text](image-37.png)
 
 
 ---
