@@ -22,7 +22,14 @@
 
 - [PDF to JPG](https://www.ilovepdf.com/pdf_to_jpg)
 - [Drive 2023](https://drive.google.com/drive/folders/1mNm_nba9il7KAgwj2YnQAqEJ9tF0PlKl)
-- [Practica 1]()
+- [Practica 1](/Practica/Practica%201/Practica1.md)
+- [Practica 2](/Practica/Practica%202/Practica2.md)
+- [Practica 3](/Practica/Practica%203/Practica3.md)
+- [Practica 4](/Practica/Practica%204/Practica4.md)
+- [Practica 5](/Practica/Practica%205/Practica5.md)
+- [Practica 6](/Practica/Practica%206/Practica6.md)
+- [Practica 7](/Practica/Practica%207/Practica7.md)
+- [Practica 8](/Practica/Practica%208/Practica8.md)
 
 <img src= 'https://i.gifer.com/origin/8c/8cd3f1898255c045143e1da97fbabf10_w200.gif' height="20" width="100%">
 
