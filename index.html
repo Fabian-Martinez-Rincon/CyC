@@ -633,6 +633,65 @@ Este conjunto tiene dos elementos: el elemento &apos;a&apos; y un conjunto que c
 <p>En resumen, el conjunto de partes de un conjunto <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> es el conjunto de todos los subconjuntos posibles de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>, incluido el propio <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> y el conjunto vac&#xED;o. Es una herramienta poderosa en teor&#xED;a de conjuntos y tiene muchas aplicaciones en matem&#xE1;ticas y ciencias de la computaci&#xF3;n.</p>
 <p><img src="https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 " height="10" width="100%"></p>
+<h3 class="mume-header" id="ejercicio-7"><strong>Ejercicio 7</strong></h3>
+
+<p>Presentar una lista con todos los elementos en cada uno de los conjuntos siguientes:</p>
+<ul>
+<li>a) {x, y} &#xD7; {a, b, c}</li>
+<li>b) {a, b, c} &#xD7; {x, y}</li>
+<li>c) {x, y} &#xD7; {y, x}</li>
+<li>d) {x, y}^2 &#xD7; {}</li>
+<li>e) {}^10 &#xD7; {2, 3, 4}^20</li>
+<li>f) {1}^5</li>
+<li>g) {1, 2} &#xD7; {a} &#xD7; {a, b}</li>
+</ul>
+<p><strong>Respuesta:</strong></p>
+<ul>
+<li>a) A = {x, y}, B = {a, b, c}<br>
+{(x, y)/x &#x2208; A &#x2227; y &#x2208; B}</li>
+<li>b) {(x, y)/x &#x2208; B &#x2227; y &#x2208; A}</li>
+<li>c) {(x, y), (x, x), (y, y), (y, x)}</li>
+<li>d) {}</li>
+<li>e) {}</li>
+<li>f) {(1, 1, 1, 1, 1)}</li>
+<li>g) {(1, (a, a)), (1, (a, b)), (2, (a, a)), (2, (a, b))}</li>
+</ul>
+<p><strong>Explicaci&#xF3;n:</strong></p>
+<p><strong>a) {x, y} &#xD7; {a, b, c}</strong></p>
+<p>Este es el producto cartesiano entre dos conjuntos. Significa que tomamos cada elemento del primer conjunto y lo emparejamos con cada elemento del segundo conjunto.</p>
+<p>Resultado:<br>
+{(x, a), (x, b), (x, c), (y, a), (y, b), (y, c)}</p>
+<p><strong>Explicaci&#xF3;n:</strong></p>
+<ul>
+<li>(x, a) porque tomamos el primer elemento de {x, y} y el primer elemento de {a, b, c}.</li>
+<li>(x, b) porque tomamos el primer elemento de {x, y} y el segundo elemento de {a, b, c}.<br>
+... y as&#xED; sucesivamente.</li>
+</ul>
+<p><strong>b) {a, b, c} &#xD7; {x, y}</strong></p>
+<p>Similar al anterior, pero ahora el primer conjunto es {a, b, c} y el segundo es {x, y}.</p>
+<p>Resultado:<br>
+{(a, x), (a, y), (b, x), (b, y), (c, x), (c, y)}</p>
+<p><strong>c) {x, y} &#xD7; {y, x}</strong></p>
+<p>Producto cartesiano entre {x, y} y {y, x}.</p>
+<p>Resultado:<br>
+{(x, y), (x, x), (y, y), (y, x)}</p>
+<p><strong>d) {x, y}^2 &#xD7; {}</strong></p>
+<p>El producto cartesiano de cualquier conjunto con un conjunto vac&#xED;o siempre es un conjunto vac&#xED;o. Esto es porque no hay elementos en el conjunto vac&#xED;o para formar pares.</p>
+<p>Resultado:<br>
+{}</p>
+<p><strong>e) {}^10 &#xD7; {2, 3, 4}^20</strong></p>
+<p>Similar al anterior, el producto cartesiano con un conjunto vac&#xED;o siempre es un conjunto vac&#xED;o.</p>
+<p>Resultado:<br>
+{}</p>
+<p><strong>f) {1}^5</strong></p>
+<p>Esto representa el conjunto de todas las tuplas de 5 elementos donde cada elemento es 1.</p>
+<p>Resultado:<br>
+{(1, 1, 1, 1, 1)}</p>
+<p><strong>g) {1, 2} &#xD7; {a} &#xD7; {a, b}</strong></p>
+<p>Producto cartesiano entre tres conjuntos. Tomamos cada combinaci&#xF3;n de elementos de los tres conjuntos.</p>
+<p>Resultado:<br>
+{(1, a, a), (1, a, b), (2, a, a), (2, a, b)}</p>
+<p>Espero que estas explicaciones te ayuden a entender mejor el concepto de producto cartesiano y c&#xF3;mo se aplic&#xF3; en cada inciso del ejercicio. Si tienes alguna otra duda, &#xA1;h&#xE1;zmelo saber!</p>
 <p><img src="https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 " height="10" width="100%"></p>
 <p><img src="https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5

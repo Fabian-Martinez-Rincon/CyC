@@ -347,6 +347,86 @@ En resumen, el conjunto de partes de un conjunto \( A \) es el conjunto de todos
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 7**
+
+Presentar una lista con todos los elementos en cada uno de los conjuntos siguientes:
+- a) {x, y} × {a, b, c}
+- b) {a, b, c} × {x, y}
+- c) {x, y} × {y, x}
+- d) {x, y}^2 × {}
+- e) {}^10 × {2, 3, 4}^20
+- f) {1}^5
+- g) {1, 2} × {a} × {a, b}
+
+**Respuesta:**
+- a) A = {x, y}, B = {a, b, c}
+   {(x, y)/x ∈ A ∧ y ∈ B}
+- b) {(x, y)/x ∈ B ∧ y ∈ A}
+- c) {(x, y), (x, x), (y, y), (y, x)}
+- d) {}
+- e) {}
+- f) {(1, 1, 1, 1, 1)}
+- g) {(1, (a, a)), (1, (a, b)), (2, (a, a)), (2, (a, b))}
+
+**Explicación:**
+
+
+**a) {x, y} × {a, b, c}**
+
+Este es el producto cartesiano entre dos conjuntos. Significa que tomamos cada elemento del primer conjunto y lo emparejamos con cada elemento del segundo conjunto.
+
+Resultado: 
+{(x, a), (x, b), (x, c), (y, a), (y, b), (y, c)}
+
+**Explicación:**
+- (x, a) porque tomamos el primer elemento de {x, y} y el primer elemento de {a, b, c}.
+- (x, b) porque tomamos el primer elemento de {x, y} y el segundo elemento de {a, b, c}.
+... y así sucesivamente.
+
+**b) {a, b, c} × {x, y}**
+
+Similar al anterior, pero ahora el primer conjunto es {a, b, c} y el segundo es {x, y}.
+
+Resultado: 
+{(a, x), (a, y), (b, x), (b, y), (c, x), (c, y)}
+
+**c) {x, y} × {y, x}**
+
+Producto cartesiano entre {x, y} y {y, x}. 
+
+Resultado: 
+{(x, y), (x, x), (y, y), (y, x)}
+
+**d) {x, y}^2 × {}**
+
+El producto cartesiano de cualquier conjunto con un conjunto vacío siempre es un conjunto vacío. Esto es porque no hay elementos en el conjunto vacío para formar pares.
+
+Resultado: 
+{}
+
+**e) {}^10 × {2, 3, 4}^20**
+
+Similar al anterior, el producto cartesiano con un conjunto vacío siempre es un conjunto vacío.
+
+Resultado: 
+{}
+
+**f) {1}^5**
+
+Esto representa el conjunto de todas las tuplas de 5 elementos donde cada elemento es 1.
+
+Resultado: 
+{(1, 1, 1, 1, 1)}
+
+**g) {1, 2} × {a} × {a, b}**
+
+Producto cartesiano entre tres conjuntos. Tomamos cada combinación de elementos de los tres conjuntos.
+
+Resultado: 
+{(1, a, a), (1, a, b), (2, a, a), (2, a, b)}
+
+Espero que estas explicaciones te ayuden a entender mejor el concepto de producto cartesiano y cómo se aplicó en cada inciso del ejercicio. Si tienes alguna otra duda, ¡házmelo saber!
+
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
