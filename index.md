@@ -430,6 +430,43 @@ Espero que estas explicaciones te ayuden a entender mejor el concepto de product
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### Ejercicio 8
+
+> Cardinalidad: "número de elementos en el conjunto".
+
+- **Consigna:** 
+  ¿Cuál es el cardinal de \( A \times B \) si \( |A| = n \) y \( |B| = m \)?
+  
+- **Respuesta:** 
+  \( |A \times B| = n \times m \)
+
+- **Explicación:**
+
+**Producto Cartesiano**
+El producto cartesiano de dos conjuntos \( A \) y \( B \), denotado \( A \times B \), es el conjunto de todos los pares ordenados donde el primer elemento es de \( A \) y el segundo elemento es de \( B \).
+
+Formalmente:
+\[ A \times B = \{(a, b) : a \in A, b \in B\} \]
+
+Por ejemplo, si \( A = \{1, 2\} \) y \( B = \{a, b\} \), entonces:
+\[ A \times B = \{(1, a), (1, b), (2, a), (2, b)\} \]
+
+**Cardinalidad del Producto Cartesiano**
+La cardinalidad de \( A \times B \) es el número de pares ordenados que se pueden formar tomando un elemento de \( A \) y uno de \( B \).
+
+Si \( A \) tiene \( n \) elementos y \( B \) tiene \( m \) elementos, entonces hay \( n \) formas de elegir el primer elemento del par (desde \( A \)) y \( m \) formas de elegir el segundo elemento del par (desde \( B \)). Por lo tanto, hay \( n \times m \) pares ordenados posibles en \( A \times B \).
+
+Esto nos lleva a la fórmula:
+\[ |A \times B| = n \times m \]
+
+**Ejemplo ilustrativo**:
+Supongamos que estamos organizando una fiesta y queremos decidir sobre las combinaciones de bebida y comida. Si tenemos 3 bebidas y 4 comidas diferentes, entonces hay 3 formas de elegir una bebida y 4 formas de elegir una comida, lo que nos da un total de \( 3 \times 4 = 12 \) combinaciones posibles de bebida y comida.
+
+**Conclusión**:
+La cardinalidad del producto cartesiano de dos conjuntos es simplemente el producto de sus cardinalidades individuales. Es una forma de contar todas las combinaciones posibles entre los elementos de los dos conjuntos.
+
+
+
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
