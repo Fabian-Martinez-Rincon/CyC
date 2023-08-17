@@ -188,13 +188,49 @@ Esto significa que si tomas el complemento de un conjunto A (todos los elementos
 - **Consigna:** Sea A el conjunto de los números naturales tales que, si son mayores que 5 o bien terminan en 5, entonces contienen algún dígito 1 ó 2.
   - **a)** Cuáles de los siguientes números pertenecen a A: 3, 5, 10, 15, 30, -10
   - **b)** Expresar el enunciado como una fórmula proposicional donde m significa "mayores que 5", t es "terminan en 5", u es "contiene algún dígito 1" y d es "contiene algún dígito 2".
+  - **c)** Transformar la fórmula del inciso anterior de manera que no tenga una implicación y aplicar una ley
+de Morgan al resultado. Expresarlo en una frase
 - **Respuesta:**
   - **a)** 3, 10, 15
   - **b)** \( (m \vee t) \rightarrow (u \vee d) \)
   - **c)** \( \neg(m \vee t) \vee (u \vee d) = (\neg m \wedge \neg t) \vee (u \vee d) \)
   - Frase: Números tales que no sean mayores que 5 y no terminen en 5 o que contengan un dígito 1 o 2.
 
-El ejercicio se centra en la representación de una condición específica sobre números naturales en términos de lógica proposicional. La condición es que si un número es mayor que 5 o termina en 5, entonces debe contener un dígito 1 o 2. La respuesta proporciona una lista de números que cumplen con esta condición y también presenta la condición en forma de fórmula proposicional.
+¡Por supuesto! Vamos a desglosar el ejercicio 4 paso a paso:
+
+**Explicación**
+
+La consigna nos está dando una condición específica que deben cumplir los números para pertenecer al conjunto A. Esta condición se puede dividir en dos partes:
+1. Un número es mayor que 5 o termina en 5.
+2. Si cumple la primera condición, entonces debe tener un dígito 1 o 2.
+
+Ahora, vamos a analizar las respuestas:
+
+  - **a)** Cuáles de los siguientes números pertenecen a A: 3, 5, 10, 15, 30, -10
+  - **Respuesta a)** 3, 10, 15
+
+Para determinar qué números pertenecen al conjunto A, debemos verificar si cumplen con la condición dada:
+- **3**: No es mayor que 5 ni termina en 5, por lo que no necesita cumplir la segunda condición. Por lo tanto, pertenece a A.
+- **5**: Termina en 5 pero no tiene dígitos 1 o 2. Sin embargo, como no es mayor que 5, no necesita cumplir la segunda condición. Por lo tanto, pertenece a A.
+- **10**: Es mayor que 5 y tiene el dígito 1. Cumple ambas condiciones, por lo que pertenece a A.
+- **15**: Termina en 5 y tiene el dígito 1. Cumple ambas condiciones, por lo que pertenece a A.
+- **30**: Es mayor que 5 pero no tiene dígitos 1 o 2. No cumple la segunda condición, por lo que no pertenece a A.
+- **-10**: No es un número natural, por lo que no se considera.
+
+Analizamos el pinto **b**
+
+- **b)** Expresar el enunciado como una fórmula proposicional donde m significa "mayores que 5", t es "terminan en 5", u es "contiene algún dígito 1" y d es "contiene algún dígito 2".
+- **Respuesta b)** \( (m \vee t) \rightarrow (u \vee d) \)
+
+Esta fórmula proposicional traduce la condición dada en la consigna a términos lógicos. La flecha (→) representa una implicación, lo que significa "si... entonces...". La fórmula se lee como: "Si un número es mayor que 5 o termina en 5, entonces debe contener un dígito 1 o un dígito 2".
+
+- **c)** \( \neg(m \vee t) \vee (u \vee d) \)
+- Frase: Números tales que no sean mayores que 5 y no terminen en 5 o que contengan un dígito 1 o 2.
+
+Esta parte transforma la fórmula anterior eliminando la implicación y utilizando la ley de Morgan. La fórmula resultante es una forma alternativa de expresar la misma condición.
+
+
+> PREGUNTAR, si no cumple la segunda condición, entra dentro del conjunto de numeros? Tambien si el 5 al ser igual, entra dentro del conjunto
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
