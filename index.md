@@ -62,7 +62,11 @@
 
 > En este repo use como base las practicas de [fotscode](https://github.com/fotscode)
 
-<div align='center'><button onclick="toggleDarkMode()">Oscuro</button>
+<div align='center'>
+<a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
+<button onclick="toggleDarkMode()">Oscuro</button>
+<a href='https://www.youtube.com/@FabianMartinezRincon/featured'><button style='background: #800000'>Youtube</button></a>
+
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%"></div>
 
@@ -234,6 +238,65 @@ Esta parte transforma la fórmula anterior eliminando la implicación y utilizan
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
+
+### **Ejercicio 5:**
+
+**Consigna:**
+Sean:
+- \( X = \{x/x \in N, x \) es impar\(\} \)
+- \( Y = \{y/y \in N, y \) es primo\(\} \)
+- \( Z = \{z/z \in N, z \) es múltiplo de 3\(\} \)
+
+Describir cada uno de los siguientes conjuntos:
+a) \( X \cap Y \)
+b) \( X \cap Z \)
+c) \( Y \cap Z \)
+d) \( Z - Y \)
+e) \( X - (Y \cap Z) \)
+f) \( (Y \cap Z) - X \)
+g) \( X \cup Y \)
+
+**Respuesta:**
+a) \( X \cap Y = Y \)
+b) \( X \cap Z = \{w/w \in N, w = 3x, x \in N, x = 2k + 1, k \in N\} \)
+c) \( Y \cap Z = \{3\} \)
+d) \( Z - Y = Z - \{3\} \)
+e) \( X - (Y \cap Z) = X - \{3\} \)
+f) \( (Y \cap Z) - X = \emptyset \)
+g) \( X \cup Y = X \)
+
+**Explicación:**
+
+¡Claro! Vamos a desglosar cada uno de los conjuntos resultantes:
+
+1. **\( X \cap Y = Y \)**
+   - \( X \) es el conjunto de números impares.
+   - \( Y \) es el conjunto de números primos.
+   - Al intersectar ambos conjuntos, obtenemos que todos los números primos (excepto el 2, que es el único número primo par) son impares. Por lo tanto, la intersección de \( X \) y \( Y \) es simplemente el conjunto \( Y \) sin el número 2.
+
+2. **\( X \cap Z \)**
+   - \( X \) es el conjunto de números impares.
+   - \( Z \) es el conjunto de números que son múltiplos de 3.
+   - La intersección nos da aquellos números que son a la vez impares y múltiplos de 3. Estos números son de la forma \( 3x \), donde \( x \) es un número impar.
+
+3. **\( Y \cap Z = \{3\} \)**
+   - \( Y \) es el conjunto de números primos.
+   - \( Z \) es el conjunto de números que son múltiplos de 3.
+   - La única intersección entre estos dos conjuntos es el número 3, que es a la vez primo y múltiplo de 3.
+
+4. **\( Z - Y \)**
+   - Aquí estamos restando del conjunto \( Z \) (múltiplos de 3) todos los números primos. El único número primo que es múltiplo de 3 es el 3. Por lo tanto, \( Z - Y \) es simplemente \( Z \) sin el número 3.
+
+5. **\( X - (Y \cap Z) \)**
+   - Estamos restando de \( X \) (números impares) la intersección de \( Y \) y \( Z \), que sabemos que es \{3\}. Por lo tanto, obtenemos todos los números impares excepto el 3.
+
+6. **\( (Y \cap Z) - X \)**
+   - Aquí estamos restando de la intersección de \( Y \) y \( Z \) (que es \{3\}) todos los números impares. Dado que 3 es impar, el resultado es el conjunto vacío.
+
+7. **\( X \cup Y = X \)**
+   - Al unir \( X \) (números impares) y \( Y \) (números primos), obtenemos todos los números impares, ya que todos los números primos (excepto el 2) ya están incluidos en \( X \).
+
+> En el Punto 2, creo que seria Y - {2}
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
