@@ -8,7 +8,7 @@
         }
 
         body.dark-mode {
-            background-color: #181a1b;
+            background-color: #232c2c;
             color: white;
             
         }
@@ -60,7 +60,6 @@
 
 </div>
 
-> Uso Mucho Code Interpreter 🤖
 > En este repo use como base las practicas de [fotscode](https://github.com/fotscode)
 
 <div align='center'><button onclick="toggleDarkMode()">Oscuro</button>
