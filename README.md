@@ -33,16 +33,12 @@
 
 <img src= 'https://i.gifer.com/origin/8c/8cd3f1898255c045143e1da97fbabf10_w200.gif' height="20" width="100%">
 
-**The Cauchy-Schwarz Inequality**
+**Ejemplo en Latex**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 
-Aquí tienes el contenido del PDF "practica1.pdf":
 
----
-
-**Computabilidad y Complejidad  
-Práctica 1**
+### Práctica 1
 
 1) Probar la siguiente ley distributiva $A \lor (B \land C) = (A \lor B) \land (A \lor C)$
 
@@ -51,9 +47,9 @@ Práctica 1**
 3) Probar que el complemento del complemento de $A$ es igual a $A$
 
 4) Sea $A$ el conjunto de los números naturales tales que, si son mayores que 5 o bien terminan en 5, entonces contienen algún dígito 1 ó 2  
-a) Cuáles de los siguientes números pertenecen a $A$: 3, 5, 10, 15, 30, -10  
-b) Expresar el enunciado como una fórmula proposicional donde $m$ significa "mayores que 5", $t$ es "terminan en 5", $u$ es "contiene algún dígito 1" y $d$ es "contiene algún dígito 2"  
-c) Transformar la fórmula del inciso anterior de manera que no tenga una implicación y aplicar una ley de Morgan al resultado. Expresarlo en una frase.
+- a) Cuáles de los siguientes números pertenecen a $A$: 3, 5, 10, 15, 30, -10  
+- b) Expresar el enunciado como una fórmula proposicional donde $m$ significa "mayores que 5", $t$ es "terminan en 5", $u$ es "contiene algún dígito 1" y $d$ es "contiene algún dígito 2"  
+- c) Transformar la fórmula del inciso anterior de manera que no tenga una implicación y aplicar una ley de Morgan al resultado. Expresarlo en una frase.
 
 5) Sean:
 - $X = \{ x | x \in N, x$ es impar\}  
