@@ -315,8 +315,8 @@ Calcular los conjuntos de partes en los siguientes casos:
 - a) ρ(∅) = { {}, {∅}}
 - b) ρ({a, b, c}) = { {}, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}
 - c) ρ({∅}) = {∅, {∅}}
-- d) ρ({∅, {∅}}) = { {}, {∅}, {{∅}}, {∅, {∅}}}
-- e) ρ({a, {b, c}}) = { {}, {a}, {{b, c}}, {a, {b, c}}}
+- d) ρ({∅, {∅}}) = { {}, {∅}, { {∅}}, {∅, {∅}}}
+- e) ρ({a, {b, c}}) = { {}, {a}, { {b, c}}, {a, {b, c}}}
 
 **Explicación**
 
@@ -334,11 +334,11 @@ Este es un conjunto que tiene un solo elemento, que es el conjunto vacío. Por l
 
 **d) {∅, {∅}}**
 Este conjunto tiene dos elementos: el conjunto vacío y un conjunto que contiene el conjunto vacío. Sus subconjuntos son:
-\[ \rho({∅, {∅}}) = \{ {}, \{∅\}, \{{∅}\}, \{∅, {∅}\} \} \]
+\[ \rho({∅, {∅}}) = \{ {}, \{∅\}, \{ {∅}\}, \{∅, {∅}\} \} \]
 
 **e) {a, {b, c}}**
 Este conjunto tiene dos elementos: el elemento 'a' y un conjunto que contiene 'b' y 'c'. Sus subconjuntos son:
-\[ \rho({a, {b, c}}) = \{ {}, \{a\}, \{{b, c}\}, \{a, {b, c}\} \} \]
+\[ \rho({a, {b, c}}) = \{ {}, \{a\}, \{ {b, c}\}, \{a, {b, c}\} \} \]
 
 En resumen, el conjunto de partes de un conjunto \( A \) es el conjunto de todos los subconjuntos posibles de \( A \), incluido el propio \( A \) y el conjunto vacío. Es una herramienta poderosa en teoría de conjuntos y tiene muchas aplicaciones en matemáticas y ciencias de la computación.
 
