@@ -1,5 +1,50 @@
 <div align="center"> 
 
+<style>
+        body {
+            background-color: white;
+            color: black;
+            transition: background-color 0.5s, color 0.5s; /* Esto añade una suave transición al cambiar los colores */
+        }
+
+        body.dark-mode {
+            background-color: #181a1b;
+            color: white;
+            
+        }
+      body.dark-mode strong ,body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+            color: white;
+        }
+        button{
+         font-family: 'Roboto', sans-serif;
+         font-size: 14px;
+         font-weight: bolt;
+         background: #1e90FF;
+         width: 100px;
+         padding: 7px;
+         text-align: center;
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #fff;
+         border-radius: 6px;
+         cursor: pointer;
+         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+
+
+
+<script>
+    function toggleDarkMode() {
+        const body = document.body;
+        if (body.classList.contains('dark-mode')) {
+            body.classList.remove('dark-mode');
+        } else {
+            body.classList.add('dark-mode');
+        }
+    }
+</script>
+
 <img src='https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat'>
 
 <img src='https://img.shields.io/github/stars/Fabian-Martinez-Rincon/Computabilidad-y-Complejidad'>
@@ -18,10 +63,9 @@
 > Uso Mucho Code Interpreter 🤖
 > En este repo use como base las practicas de [fotscode](https://github.com/fotscode)
 
-
+<div align='center'><button onclick="toggleDarkMode()">Oscuro</button>
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%">
-
+' height="10" width="100%"></div>
 
 <p><img width="250" align='right' src="https://media.giphy.com/media/zPbnEgxsPJOJSD3qfr/giphy.gif"></p>
 
