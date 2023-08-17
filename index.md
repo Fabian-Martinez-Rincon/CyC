@@ -183,6 +183,19 @@ Esto significa que si tomas el complemento de un conjunto A (todos los elementos
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+
+### **Ejercicio 4**
+- **Consigna:** Sea A el conjunto de los números naturales tales que, si son mayores que 5 o bien terminan en 5, entonces contienen algún dígito 1 ó 2.
+  - **a)** Cuáles de los siguientes números pertenecen a A: 3, 5, 10, 15, 30, -10
+  - **b)** Expresar el enunciado como una fórmula proposicional donde m significa "mayores que 5", t es "terminan en 5", u es "contiene algún dígito 1" y d es "contiene algún dígito 2".
+- **Respuesta:**
+  - **a)** 3, 10, 15
+  - **b)** \( (m \vee t) \rightarrow (u \vee d) \)
+  - **c)** \( \neg(m \vee t) \vee (u \vee d) = (\neg m \wedge \neg t) \vee (u \vee d) \)
+  - Frase: Números tales que no sean mayores que 5 y no terminen en 5 o que contengan un dígito 1 o 2.
+
+El ejercicio se centra en la representación de una condición específica sobre números naturales en términos de lógica proposicional. La condición es que si un número es mayor que 5 o termina en 5, entonces debe contener un dígito 1 o 2. La respuesta proporciona una lista de números que cumplen con esta condición y también presenta la condición en forma de fórmula proposicional.
+
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
