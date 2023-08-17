@@ -63,13 +63,12 @@
 > En este repo use como base las practicas de [fotscode](https://github.com/fotscode)
 
 <div align='center'>
-
-
+<a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
+<button onclick="toggleDarkMode()">Oscuro</button>
+<a href='https://www.youtube.com/@FabianMartinezRincon/featured'><button style='background: #800000'>Youtube</button></a>
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%">
-
-
+' height="10" width="100%"></div>
 
 <p><img width="250" align='right' src="https://media.giphy.com/media/zPbnEgxsPJOJSD3qfr/giphy.gif"></p>
 
@@ -313,15 +312,33 @@ Calcular los conjuntos de partes en los siguientes casos:
 - e) {a, {b, c}}
 
 **Respuesta:**
-- a) ρ(∅) = {{}, {∅}}
-- b) ρ({a, b, c}) = {{}, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}
+- a) ρ(∅) = { {}, {∅}}
+- b) ρ({a, b, c}) = { {}, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}
 - c) ρ({∅}) = {∅, {∅}}
-- d) ρ({∅, {∅}}) = {{}, {∅}, {{∅}}, {∅, {∅}}}
-- e) ρ({a, {b, c}}) = {{}, {a}, {{b, c}}, {a, {b, c}}}
+- d) ρ({∅, {∅}}) = { {}, {∅}, {{∅}}, {∅, {∅}}}
+- e) ρ({a, {b, c}}) = { {}, {a}, {{b, c}}, {a, {b, c}}}
 
 **Explicación**
 
+**a) ∅**
+El conjunto vacío (∅) tiene solo dos subconjuntos: él mismo y el conjunto vacío. Por lo tanto, el conjunto de partes de ∅ es: 
+\[ \rho(∅) = \{ {}, \{∅\} \} \]
 
+**b) {a, b, c}**
+Para el conjunto {a, b, c}, debemos considerar todos los subconjuntos posibles, incluidos los subconjuntos de un solo elemento, los subconjuntos de dos elementos, el conjunto vacío y el conjunto completo:
+\[ \rho({a, b, c}) = \{ {}, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a, b, c\} \} \]
+
+**c) {∅}**
+Este es un conjunto que tiene un solo elemento, que es el conjunto vacío. Por lo tanto, sus subconjuntos son el conjunto vacío y él mismo:
+\[ \rho({∅}) = \{ ∅, \{∅\} \} \]
+
+**d) {∅, {∅}}**
+Este conjunto tiene dos elementos: el conjunto vacío y un conjunto que contiene el conjunto vacío. Sus subconjuntos son:
+\[ \rho({∅, {∅}}) = \{ {}, \{∅\}, \{{∅}\}, \{∅, {∅}\} \} \]
+
+**e) {a, {b, c}}**
+Este conjunto tiene dos elementos: el elemento 'a' y un conjunto que contiene 'b' y 'c'. Sus subconjuntos son:
+\[ \rho({a, {b, c}}) = \{ {}, \{a\}, \{{b, c}\}, \{a, {b, c}\} \} \]
 
 En resumen, el conjunto de partes de un conjunto \( A \) es el conjunto de todos los subconjuntos posibles de \( A \), incluido el propio \( A \) y el conjunto vacío. Es una herramienta poderosa en teoría de conjuntos y tiene muchas aplicaciones en matemáticas y ciencias de la computación.
 
