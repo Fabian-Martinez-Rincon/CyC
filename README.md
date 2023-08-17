@@ -19,3 +19,15 @@ Este conjunto tiene dos elementos: el conjunto vacío y un conjunto que contiene
 **e) {a, {b, c}}**
 Este conjunto tiene dos elementos: el elemento 'a' y un conjunto que contiene 'b' y 'c'. Sus subconjuntos son:
 \[ \rho({a, {b, c}}) = \{ {}, \{a\}, \{{b, c}\}, \{a, {b, c}\} \} \]
+
+<a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
+
+
+<button onclick="toggleDarkMode()">Oscuro</button>
+
+
+<a href='https://www.youtube.com/@FabianMartinezRincon/featured'><button style='background: #800000'>Youtube</button>
+
+</a>
+
+</div>
