@@ -71,13 +71,13 @@
 - Parcial 22/11/2023
 - [Drive 2023](https://drive.google.com/drive/folders/1mNm_nba9il7KAgwj2YnQAqEJ9tF0PlKl)
 - [Practica 1 Lógica y Cardinalidad](#práctica-1-logica-y-cardinalidad)
-- [Practica 2 MT]()
-- [Practica 3 Equivalencia de Modelos]()
-- [Practica 4 Caracterización de Lenguajes]()
-- [Practica 5 Reducibilidad]()
-- [Practica 6 Notación Asintótica]()
-- [Practica 7 Complejidad Temporal]()
-- [Practica 8 Análisis de Algoritmos]()
+- [Practica 2 MT](#práctica-2-mt)
+- [Practica 3 Equivalencia de Modelos](#práctica-3-equivalencia-de-modelos)
+- [Practica 4 Caracterización de Lenguajes](#práctica-4-caracterización-de-lenguajes)
+- [Practica 5 Reducibilidad](#práctica-5-reducibilidad)
+- [Practica 6 Notación Asintótica](#práctica-6-notación-asintótica)
+- [Practica 7 Complejidad Temporal](#práctica-7-complejidad-temporal)
+- [Practica 8 Análisis de Algoritmos](#práctica-8-análisis-de-algoritmos)
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
@@ -93,15 +93,14 @@
 ---
 
 ### **Ejercicio 1**
-**Consigna:** Probar la siguiente ley distributiva \( A \lor (B \land C) = (A \lor B) \land (A \lor C) \)
-
-**Respuesta:**
-- \( A \lor (B \land C) \)
-- \( x \in A \lor (x \in B \land x \in C) \)
-- \( x \in A \lor x \in (B \land C) \)
-- \( x \in (A \lor B) \land x \in (A \lor C) \)
-- \( (x \in A \lor x \in B) \land (x \in A \lor x \in C) \)
-- \( (A \lor B) \land (A \lor C) \)
+- **Consigna:** Probar la siguiente ley distributiva \( A \lor (B \land C) = (A \lor B) \land (A \lor C) \)
+- **Respuesta:**
+   - \( A \lor (B \land C) \)
+   - \( x \in A \lor (x \in B \land x \in C) \)
+   - \( x \in A \lor x \in (B \land C) \)
+   - \( x \in (A \lor B) \land x \in (A \lor C) \)
+   - \( (x \in A \lor x \in B) \land (x \in A \lor x \in C) \)
+   - \( (A \lor B) \land (A \lor C) \)
 
 **Explicación:**
 
@@ -136,6 +135,106 @@ En resumen, la respuesta demuestra que la unión de \( A \) con la intersección
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
+
+
+
+### **Ejercicio 2**
+- **Consigna:** Probar la siguiente ley de Morgan: El Complemento de \(A \cup B\) es igual al complemento de \(A\) intersección el complemento de \(B\).
+- **Respuesta:** 
+  \[
+  (A \cup B)^c \Leftrightarrow \neg(x \in A \lor x \in B) \Leftrightarrow x \notin A \land x \notin B \Leftrightarrow A^c \cap B^c
+  \]
+
+**Explicación**
+
+¡Claro! Vamos a desglosar la solución del ejercicio 2 paso a paso:
+
+**Ley de Morgan:** El Complemento de \(A \cup B\) es igual al complemento de \(A\) intersección el complemento de \(B\).
+
+Para probar esto, vamos a comenzar con el lado izquierdo de la ecuación y tratar de llegar al lado derecho.
+
+1. **Inicio:** \( (A \cup B)^c \)
+   - Aquí estamos tomando el complemento de la unión de los conjuntos \(A\) y \(B\). Es decir, estamos buscando todos los elementos que no están ni en \(A\) ni en \(B\).
+
+2. **Traducción a lógica proposicional:** \( \neg(x \in A \lor x \in B) \)
+   - Aquí estamos diciendo que un elemento \(x\) no pertenece a \(A\) y tampoco pertenece a \(B\). En términos de lógica proposicional, esto se traduce como la negación de la declaración "x está en A o x está en B".
+
+3. **Aplicación de las propiedades de la lógica:** \( x \notin A \land x \notin B \)
+   - Usando las propiedades de la lógica proposicional, podemos reescribir la declaración anterior como "x no está en A y x no está en B".
+
+4. **Traducción de vuelta a notación de conjuntos:** \( A^c \cap B^c \)
+   - Finalmente, traducimos la declaración lógica de vuelta a notación de conjuntos. Aquí, \(A^c\) representa el complemento de \(A\) (todos los elementos que no están en \(A\)) y \(B^c\) representa el complemento de \(B\). La intersección de estos dos conjuntos (\( \cap \)) nos da todos los elementos que no están ni en \(A\) ni en \(B\), que es exactamente lo que estábamos buscando.
+
+Por lo tanto, hemos demostrado que el complemento de la unión de dos conjuntos es igual a la intersección de sus complementos, que es la Ley de Morgan para conjuntos.
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+### **Ejercicio 3**
+- **Consigna:** Probar que el complemento del complemento de A es igual a A.
+- **Respuesta:** 
+  - \( \neg \neg A \)
+  - \( \neg (x \notin A) \)
+  - \( x \in A \)
+  - \( A \)
+
+Esto significa que si tomas el complemento de un conjunto A (todos los elementos que no están en A) y luego tomas el complemento de ese resultado, obtendrás el conjunto A original. Es una propiedad fundamental de los conjuntos y sus complementos.
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+
+
 
 # Práctica 2 MT
 
