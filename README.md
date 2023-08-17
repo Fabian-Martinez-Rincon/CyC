@@ -38,7 +38,7 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 
 
-### Práctica 1
+## Práctica 11
 
 1) Probar la siguiente ley distributiva $A \lor (B \land C) = (A \lor B) \land (A \lor C)$
 
@@ -52,9 +52,9 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 - c) Transformar la fórmula del inciso anterior de manera que no tenga una implicación y aplicar una ley de Morgan al resultado. Expresarlo en una frase.
 
 5) Sean:
-- $X = \{ x | x \in N, x$ es impar\}  
-- $Y = \{ y | y \in N, y$ es primo\}  
-- $Z = \{ z | z \in N, z$ es múltiplo de 3\}  
+- a) $X = \{ x | x \in N, x$ es impar $\}$
+- b) $Y = \{ y | y \in N, y$ es primo $\}$
+- c) $Z = \{ z | z \in N, z$ es múltiplo de 3 $\}$
 
 Describir cada uno de los siguientes conjuntos:  
 
@@ -119,3 +119,8 @@ c) incontable
 ---
 
 Este es un resumen del contenido del PDF. ¿Hay algo específico que te gustaría hacer con esta información?
+
+
+
+
+
