@@ -123,4 +123,33 @@ Este es un resumen del contenido del PDF. ¿Hay algo específico que te gustarí
 
 
 
+¡Claro! Aquí tienes el ejercicio 5 en formato LaTeX para GitHub Markdown:
 
+---
+
+**Ejercicio 5:**
+
+Sean:
+- $ X = \{ x \mid x \in \mathbb{N}, x \text{ es impar} \} $
+- $ Y = \{ y \mid y \in \mathbb{N}, y \text{ es primo} \} $
+- $ Z = \{ z \mid z \in \mathbb{N}, z \text{ es múltiplo de 3} \} $
+
+Describir cada uno de los siguientes conjuntos:
+
+a) \( X \cap Y \)
+
+b) \( X \cap Z \)
+
+c) \( Y \cap Z \)
+
+d) \( Z - Y \)
+
+e) \( X - (Y \cap Z) \)
+
+f) \( (Y \cap Z) - X \)
+
+g) \( X \cup Y \)
+
+---
+
+Puedes copiar y pegar este texto directamente en tu archivo Markdown de GitHub y se mostrará correctamente con la notación LaTeX.
