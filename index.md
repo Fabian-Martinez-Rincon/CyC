@@ -63,9 +63,9 @@
 > En este repo use como base las practicas de [fotscode](https://github.com/fotscode)
 
 <div align='center'>
-<a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
 <button onclick="toggleDarkMode()">Oscuro</button>
-
+<a href='https://github.com/Fabian-Martinez-Rincon/CyC/tree/main'><button style='background: #ecec00'> ⭐ </button></a>
+<a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%"></div>
