@@ -557,20 +557,147 @@ Dado que hemos encontrado funciones inyectivas en ambas direcciones, podemos con
 
 La idea detrás de esta demostración es que aunque parezca que hay "más" pares de números naturales que números naturales positivos (porque estamos considerando todos los posibles pares), en realidad hay una correspondencia uno a uno entre ellos. Esto se debe a que hay infinitos números naturales y, por lo tanto, infinitos pares de números naturales. La función que hemos definido simplemente nos da una forma sistemática de emparejar cada número natural positivo con un par único de números naturales.
 
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+### **Ejercicio 11**
+
+Consigna:
+Mostrar que \( |Q^+| \leq |N| \), siendo \( Q^+ \) el conjunto de los racionales positivos.
+
+Respuesta:
+Siendo \( i, j \) el numerador y el denominador respectivamente, se puede utilizar la siguiente función para obtener un número entero a partir de estos:
+\[ f(i,j) = \frac{(i+j)(i+j+1)}{2} \]
+
+Para demostrar que el conjunto de los racionales positivos \( Q^+ \) tiene el mismo tamaño (o cardinalidad) que el conjunto de los números naturales \( N \), necesitamos encontrar una función biyectiva entre estos dos conjuntos. Una función biyectiva es una función que es inyectiva (sin valores duplicados) y sobreyectiva (cubre todo el conjunto de llegada).
+
+**Solución**:
+La idea es asociar cada número racional positivo con un número natural único. Para hacer esto, consideramos cada número racional como una fracción \( \frac{i}{j} \), donde \( i \) es el numerador y \( j \) es el denominador.
+
+La función propuesta es:
+\[ f(i,j) = \frac{(i+j)(i+j+1)}{2} + i \]
+
+Esta función es una variante de la función de Cantor para emparejar dos números naturales con un número natural único. La función de Cantor es una famosa función que se utiliza para demostrar que hay tantos pares de números naturales como números naturales individuales.
+
+La función \( f \) toma dos números naturales \( i \) y \( j \) y produce un número natural único. La idea es que, al variar \( i \) y \( j \), obtenemos todos los números naturales exactamente una vez. Por lo tanto, podemos asociar cada número racional positivo con un número natural único usando esta función.
+
+**Explicación intuitiva**:
+Imagina que todos los números racionales positivos están dispuestos en una cuadrícula infinita. Cada fila de la cuadrícula representa un denominador diferente, y cada columna representa un numerador diferente. La función \( f \) nos da una forma de "enumerar" cada celda de esta cuadrícula con un número natural único. Al hacerlo, demostramos que hay tantos números racionales positivos como números naturales.
+
+En resumen, hemos demostrado que el conjunto de los racionales positivos \( Q^+ \) tiene el mismo tamaño que el conjunto de los números naturales \( N \) utilizando la función \( f \). Esto es una manifestación del poder y la sorpresa de la teoría de conjuntos y la cardinalidad.
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+### **Ejercicio 12**
+Consigna:
+Mostrar que la cardinalidad del conjunto de todas las funciones de \( R \) a \( \{0, 1\} \) es menor o igual a la del conjunto de todas las funciones que van:
+a) de \( R \) a \( N \)
+b) de \( R \) a \( \{a, b, c\} \)
+
+Respuesta:
+Probar que:
+\[ | \{f / f : R \rightarrow \{0, 1\} \} | \leq | \{f / f : R \rightarrow N \} | \]
+es fácil de demostrar gracias a la función identidad, las funciones que van de reales a \( 0,1 \) son un subconjunto de las funciones de reales a naturales.
+
+\[ | \{f / f : R \rightarrow \{0, 1\} \} | \leq | \{f / f : R \rightarrow \{a, b, c\} \} | \]
+se puede utilizar una función que convierta el \( 0 \) a \( 'a' \) y \( 1 \) a \( 'b' \).
+
+
+**Explicación:**
+
+Primero, es importante entender qué significa la cardinalidad de un conjunto de funciones. La cardinalidad de un conjunto es una medida de "cuántos" elementos hay en ese conjunto. Cuando hablamos de conjuntos de funciones, estamos hablando de cuántas funciones diferentes hay en ese conjunto.
+
+**a) de \( R \) a \( N \)**
+
+Para mostrar que la cardinalidad del conjunto de todas las funciones de \( R \) a \( \{0, 1\} \) es menor o igual a la del conjunto de todas las funciones que van de \( R \) a \( N \), necesitamos encontrar una función inyectiva (una función que no asigna dos elementos diferentes al mismo elemento) de un conjunto al otro.
+
+Dado que cualquier función que va de \( R \) a \( \{0, 1\} \) también puede ser vista como una función que va de \( R \) a \( N \) (simplemente asignando 0 y 1 a sus respectivos valores en \( N \)), podemos decir que el conjunto de funciones de \( R \) a \( \{0, 1\} \) es un subconjunto del conjunto de funciones de \( R \) a \( N \). Por lo tanto, su cardinalidad es menor o igual.
+
+**b) de \( R \) a \( \{a, b, c\} \)**
+
+Similarmente, para mostrar que la cardinalidad del conjunto de todas las funciones de \( R \) a \( \{0, 1\} \) es menor o igual a la del conjunto de todas las funciones que van de \( R \) a \( \{a, b, c\} \), necesitamos encontrar una función inyectiva de un conjunto al otro.
+
+Podemos hacer esto fácilmente definiendo una función que mapee 0 a 'a' y 1 a 'b'. Cualquier función que vaya de \( R \) a \( \{0, 1\} \) puede ser transformada en una función que vaya de \( R \) a \( \{a, b, c\} \) usando este mapeo. Por lo tanto, el conjunto de funciones de \( R \) a \( \{0, 1\} \) es un subconjunto del conjunto de funciones de \( R \) a \( \{a, b, c\} \), y su cardinalidad es menor o igual.
+
+**Conclusión:**
+
+En ambos casos, hemos mostrado que el conjunto de funciones de \( R \) a \( \{0, 1\} \) es un subconjunto de los otros dos conjuntos de funciones mencionados, lo que significa que su cardinalidad es menor o igual a la de esos conjuntos.
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
+
+### **Ejercicio 13**
+
+Consigna:
+Dar un ejemplo de 2 conjuntos disjuntos no vacíos, A y B tales que:
+a) \( |A| < |B| < |A \cup B| \)
+b) \( |A| < |B| = |A \cup B| \)
+c) \( |A| = |B| = |A \cup B| \)
+
+Respuesta:
+a) \( A = \{1, 2\}, B = \{3, 4, 5\} \)
+b) \( A = \mathbb{N}, B = \mathbb{R} - \mathbb{N} \)
+c) \( A = \{x/x \) es par\(\}, B = \{x/x \) es impar\(\} \)
+
+
+
+**Respuesta y Explicación:**
+
+a) \( A = \{1, 2\}, B = \{3, 4, 5\} \)
+- Aquí, el conjunto A tiene 2 elementos y el conjunto B tiene 3 elementos. Como A y B son disjuntos (no tienen elementos en común), la unión de A y B tendrá 5 elementos. Por lo tanto, \( |A| = 2 < |B| = 3 < |A \cup B| = 5 \).
+
+b) \( A = \mathbb{N}, B = \mathbb{R} - \mathbb{N} \)
+- A es el conjunto de los números naturales (es decir, los números enteros no negativos) y B es el conjunto de los números reales que no son naturales. 
+- El conjunto de números reales es infinitamente más grande que el conjunto de números naturales. Sin embargo, cuando tomamos la unión de A y B, obtenemos todo el conjunto de números reales \( \mathbb{R} \). 
+- Por lo tanto, \( |A| \) (que es infinito, pero "más pequeño") es menor que \( |B| \), pero \( |B| \) es igual a \( |A \cup B| \) porque ambos son simplemente el conjunto de números reales.
+
+c) \( A = \{x/x \) es par\(\}, B = \{x/x \) es impar\(\} \)
+- A es el conjunto de todos los números enteros pares y B es el conjunto de todos los números enteros impares.
+- Ambos conjuntos son infinitos, pero como son disjuntos (no tienen elementos en común), la unión de A y B es simplemente el conjunto de todos los números enteros.
+- Por lo tanto, \( |A| = |B| \) (ambos infinitos) y \( |A \cup B| \) es también infinito, pero es igual a \( |A| \) y \( |B| \).
 
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
-<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%">
+### **Ejercicio 14**
+Consigna:
+Mostrar que \( |N \setminus \{7, 9, 15, 34, 21, 344, 990\}| = |N| \)
 
-<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%">
+Respuesta:
+Para mostrar que \( |N \setminus \{7, 9, 15, 34, 21, 344, 990\}| \) es igual a \( |N| \):
 
-<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%">
+1. \( |N \setminus \{7, 9, 15, 34, 21, 344, 990\}| \leq |N| \)
+   - Usar la función identidad.
 
+2. \( |N| \leq |N \setminus \{7, 9, 15, 34, 21, 344, 990\}| \)
+   - Usar la función \( g(n) = n + 1000 \).
+
+La idea detrás de esta demostración es que, incluso si eliminamos un número finito de elementos de los números naturales (en este caso, los números 7, 9, 15, 34, 21, 344, y 990), todavía podemos encontrar una correspondencia uno a uno (una función biyectiva) entre los números naturales y el conjunto resultante. La función \( g(n) \) simplemente desplaza cada número natural por 1000, asegurando que no se solapen con los números que hemos eliminado. Por lo tanto, ambos conjuntos tienen la misma cardinalidad.
+
+**Explicación**
+Para demostrar que dos conjuntos tienen la misma cardinalidad, necesitamos encontrar una función biyectiva entre ellos. Una función biyectiva es una función que es inyectiva (sin dos elementos que se mapeen al mismo elemento) y sobreyectiva (cubre todo el conjunto de llegada).
+
+**Paso 1: Entender los conjuntos involucrados**
+
+- \( N \) es el conjunto de todos los números naturales (0, 1, 2, 3, ...).
+- \( N \setminus \{7, 9, 15, 34, 21, 344, 990\} \) es el conjunto de todos los números naturales excepto 7, 9, 15, 34, 21, 344 y 990.
+
+**Paso 2: Demostrar que \( |N \setminus \{7, 9, 15, 34, 21, 344, 990\}| \leq |N| \)**
+
+Para esto, podemos usar la función identidad \( f(n) = n \). Esta función simplemente mapea cada número natural a sí mismo. Es evidente que si tomamos cualquier número natural, sigue siendo un número natural incluso si eliminamos un conjunto finito de ellos. Por lo tanto, la función identidad es una función inyectiva de \( N \setminus \{7, 9, 15, 34, 21, 344, 990\} \) a \( N \).
+
+**Paso 3: Demostrar que \( |N| \leq |N \setminus \{7, 9, 15, 34, 21, 344, 990\}| \)**
+
+Para esta parte, proponemos una función \( g(n) \) que mapea \( N \) a \( N \setminus \{7, 9, 15, 34, 21, 344, 990\} \). Una función que podría funcionar es \( g(n) = n + 1000 \). 
+
+¿Por qué esta función? Bueno, al agregar 1000 a cualquier número natural, nos aseguramos de que el resultado sea un número mayor que 990 (el número más grande en el conjunto que estamos eliminando). Por lo tanto, no hay forma de que \( g(n) \) mapee un número natural a 7, 9, 15, 34, 21, 344 o 990.
+
+Esta función es claramente inyectiva porque cada número natural se mapea a un número único en \( N \setminus \{7, 9, 15, 34, 21, 344, 990\} \). También es sobreyectiva porque cubre todo el conjunto \( N \setminus \{7, 9, 15, 34, 21, 344, 990\} \).
+
+**Conclusión:**
+Dado que hemos encontrado funciones biyectivas en ambas direcciones entre \( N \) y \( N \setminus \{7, 9, 15, 34, 21, 344, 990\} \), podemos concluir que estos dos conjuntos tienen la misma cardinalidad.
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
