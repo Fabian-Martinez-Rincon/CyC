@@ -470,8 +470,94 @@ La cardinalidad del producto cartesiano de dos conjuntos es simplemente el produ
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 9**
+
+**Consigna:**
+Demostrar por inducción que si A es un conjunto finito \(|A| = n\) entonces \(|\rho(A)| = 2^n\).
+
+**Respuesta:**
+Para demostrar esto, utilizaremos el principio de inducción matemática:
+
+1. **Caso base \(n=0\):**
+   Si \(A = \emptyset\), entonces el conjunto de partes de \(A\) es \(\rho(\emptyset) = \{\emptyset\}\). Por lo tanto, \(|\rho(\emptyset)| = 2^0 = 1\).
+
+2. **Hipótesis inductiva (Hi):**
+   Suponemos que la afirmación es cierta para algún \(n\) arbitrario, es decir, si \(|A| = n\) entonces \(|\rho(A)| = 2^n\).
+
+3. **Paso inductivo:**
+   Consideremos un conjunto \(A'\) tal que \(|A'| = n + 1\). Podemos escribir \(A'\) como \(A' = A \cup \{n + 1\}\), donde \(|A| = n\).
+
+   El conjunto de partes de \(A'\) es:
+   \(\rho(A') = \rho(A) \cup \{x | x = \{n + 1\} \cup k, k \in \rho(A)\}\).
+
+   Entonces, el número de elementos en \(\rho(A')\) es:
+   \(|\rho(A')| = |\rho(A)| + |{x | x = \{n + 1\} \cup k, k \in \rho(A)}|\).
+
+   Usando la hipótesis inductiva, sabemos que \(|\rho(A)| = 2^n\). Por lo tanto, el número de conjuntos que contienen el elemento \(n + 1\) y cualquier subconjunto de \(A\) también es \(2^n\).
+
+   Sumando ambos resultados, obtenemos:
+   \(|\rho(A')| = 2^n + 2^n = 2^{n+1}\).
+
+Por lo tanto, hemos demostrado que si \(|A| = n + 1\), entonces \(|\rho(A)| = 2^{n+1}\), lo que completa la demostración por inducción.
+
+En resumen, para cualquier conjunto finito \(A\) con \(n\) elementos, el número de subconjuntos de \(A\) (es decir, el número de elementos en el conjunto de partes de \(A\)) es \(2^n\).
+
+> Este ejercicio no lo entendi muy bien
+
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
+
+### Ejercicio 10
+
+**Consigna:**
+Mostrar que \( |N \times N| = |N^+| \)
+
+**Respuesta:**
+Para demostrar esto, se deben probar dos cosas:
+1. \( |N \times N| \leq |N^+| \)
+2. \( |N^+| \leq |N \times N| \)
+
+Para el punto 2, es sencillo encontrar una función inyectiva ya que se puede utilizar la función identidad.
+
+Para el punto 1, se puede utilizar el orden canónico de las tuplas formadas para mapear la suma de los mismos. El primer elemento es (0,0) que se mapea a 0, (0,1) y (1,0) se mapean a 1, y así sucesivamente.
+
+Por lo tanto, queda demostrado que \( |N \times N| = |N^+| \).
+
+**Explicacíon Detallada**
+
+¡Claro! Vamos a desglosar la solución del ejercicio 10 paso a paso.
+
+**Consigna:**
+Mostrar que \( |N \times N| = |N^+| \)
+
+Aquí, \( N \) representa el conjunto de números naturales (incluido el 0) y \( N^+ \) representa el conjunto de números naturales positivos (sin incluir el 0). El símbolo \( \times \) denota el producto cartesiano, y \( |A| \) denota el cardinal (tamaño) del conjunto \( A \).
+
+**Solución:**
+
+Para demostrar que dos conjuntos tienen el mismo cardinal, debemos encontrar una función biyectiva entre ellos. Una función biyectiva es una función que es inyectiva (sin dos elementos de entrada que se mapeen al mismo elemento de salida) y sobreyectiva (todos los elementos del conjunto de salida tienen al menos un elemento de entrada que se mapea a ellos).
+
+**1. \( |N \times N| \leq |N^+| \)**
+
+Para demostrar esto, necesitamos encontrar una función inyectiva \( f: N \times N \rightarrow N^+ \).
+
+Una posible función es la siguiente:
+\[ f(a, b) = 2^a(2b+1) \]
+
+Esta función es inyectiva porque para cualquier par de números naturales \( (a, b) \) y \( (c, d) \), si \( f(a, b) = f(c, d) \), entonces \( a = c \) y \( b = d \).
+
+**2. \( |N^+| \leq |N \times N| \)**
+
+Para demostrar esto, necesitamos encontrar una función inyectiva \( g: N^+ \rightarrow N \times N \).
+
+Una posible función es la función identidad, que mapea cada número natural positivo a sí mismo. Esta función es claramente inyectiva.
+
+Dado que hemos encontrado funciones inyectivas en ambas direcciones, podemos concluir que \( |N \times N| = |N^+| \).
+
+**Explicación intuitiva:**
+
+La idea detrás de esta demostración es que aunque parezca que hay "más" pares de números naturales que números naturales positivos (porque estamos considerando todos los posibles pares), en realidad hay una correspondencia uno a uno entre ellos. Esto se debe a que hay infinitos números naturales y, por lo tanto, infinitos pares de números naturales. La función que hemos definido simplemente nos da una forma sistemática de emparejar cada número natural positivo con un par único de números naturales.
+
+
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
