@@ -8,7 +8,7 @@
         }
 
         body.dark-mode {
-            background-color: #232c2c;
+            background-color: #1E2021;
             color: white;
             
         }
