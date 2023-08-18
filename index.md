@@ -65,7 +65,7 @@
 <div align='center'>
 <a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
 <button onclick="toggleDarkMode()">Oscuro</button>
-<a href='https://www.youtube.com/@FabianMartinezRincon/featured'><button style='background: #800000'>Youtube</button></a>
+
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%"></div>
@@ -702,27 +702,199 @@ Dado que hemos encontrado funciones biyectivas en ambas direcciones entre \( N \
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 15**
+Consigna:
+¿El conjunto de todas las frases en el idioma español es contable o incontable? Justificar.
+
+Respuesta:
+A = frases en el idioma español
+|A| ≤ |N|
+Utilizar el orden canónico de las frases para convertir cada frase formada a un número único según su orden.
+
+**Explicación detallada**:
+La pregunta es si el conjunto de todas las frases en español es contable o incontable. Para responder a esta pregunta, primero debemos entender qué significa que un conjunto sea contable.
+
+Un conjunto es contable si sus elementos pueden ser puestos en correspondencia uno a uno con los números naturales (0, 1, 2, 3, ...). En otras palabras, si podemos enumerar todos sus elementos en una lista infinita sin dejar ninguno fuera, entonces el conjunto es contable.
+
+Ahora, consideremos el conjunto de todas las frases en español. A primera vista, podría parecer que hay infinitas frases posibles, especialmente si consideramos frases de longitud arbitraria. Sin embargo, la respuesta sugiere que utilicemos el "orden canónico" de las frases para asignar a cada frase un número único. 
+
+El "orden canónico" se refiere a una forma sistemática de enumerar las frases. Por ejemplo, podríamos empezar enumerando todas las frases de una palabra, luego todas las frases de dos palabras, y así sucesivamente. Dentro de cada longitud de frase, podríamos ordenar las frases alfabéticamente.
+
+Aunque este proceso nos daría una forma de enumerar todas las frases, hay un problema: hay infinitas frases de cada longitud. Por lo tanto, nunca llegaríamos a las frases de dos palabras porque estaríamos atrapados enumerando infinitamente las frases de una palabra.
+
+Dado este razonamiento, parece que el conjunto de todas las frases en español es incontable. Sin embargo, la respuesta proporcionada sugiere que es contable, lo que puede ser un error o una simplificación. En la práctica, el conjunto de todas las frases posibles en cualquier idioma es incontable debido a la posibilidad de formar frases de longitud infinita.
+
+> Preguntar al profe
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 16**
+Consigna:
+Dar ejemplos para mostrar que la intersección de 2 conjuntos incontables puede ser:
+a) finita
+b) infinita contable
+c) incontable
+
+Respuesta:
+a) \( (R - R^+) \cap R^+ \)
+b) \( R \cap (\rho(N) \cup N) \)
+c) \( R \cap R \)
+
+**Explicación:**
+
+**Respuesta y Explicación detallada:**
+
+**a) \( (R - R^+) \cap R^+ \)**
+- \( R \) representa el conjunto de todos los números reales.
+- \( R^+ \) representa el conjunto de todos los números reales positivos.
+- \( R - R^+ \) representa el conjunto de todos los números reales que no son positivos. Esto incluye todos los números reales negativos y el cero.
+  
+La intersección entre los números reales que no son positivos y los números reales positivos es el conjunto vacío, ya que no hay ningún número que sea a la vez no positivo y positivo. Por lo tanto, la intersección es finita (en realidad, tiene 0 elementos).
+
+**b) \( R \cap (\rho(N) \cup N) \)**
+- \( N \) representa el conjunto de todos los números naturales (0, 1, 2, 3, ...).
+- \( \rho(N) \) representa el conjunto potencia de los números naturales. Es decir, el conjunto de todos los subconjuntos de \( N \). Por ejemplo, {}, {1}, {2}, {1,2}, {1,2,3}, ... son todos elementos de \( \rho(N) \).
+  
+La unión \( \rho(N) \cup N \) combina los elementos de \( \rho(N) \) y \( N \). Sin embargo, esta unión sigue siendo contable porque tanto \( N \) como \( \rho(N) \) son conjuntos contables.
+
+La intersección \( R \cap (\rho(N) \cup N) \) es simplemente el conjunto \( \rho(N) \cup N \) porque todos sus elementos son números reales. Esta intersección es infinita y contable porque, aunque tiene infinitos elementos, estos pueden ser puestos en correspondencia uno a uno con los números naturales.
+
+**c) \( R \cap R \)**
+Este es el caso más sencillo. Estamos tomando la intersección del conjunto de números reales \( R \) consigo mismo. La intersección de un conjunto consigo mismo es siempre el conjunto original. Por lo tanto, la intersección es \( R \), que es incontable.
+
+En resumen, el ejercicio 16 nos muestra diferentes posibilidades para la intersección de dos conjuntos incontables, y cómo esta intersección puede resultar en conjuntos de diferentes "tamaños" o cardinalidades: finita, infinita contable e incontable.
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 17**
+Consigna:
+Mostrar que la unión de 2 conjuntos contables es contable.
+
+Respuesta:
+\[ |N \cup N| = |N| \]
+\[ |N| = |N| \]
+
+**Conceptos previos:**
+- Un conjunto es **contable** si sus elementos pueden ser puestos en correspondencia uno a uno con el conjunto de los números naturales \(N\) o con un subconjunto de \(N\). Esto significa que podemos "enumerar" sus elementos, es decir, podemos listarlos uno por uno sin dejar ninguno fuera.
+- El conjunto de los números naturales \(N\) es {1, 2, 3, 4, ...}. Es un conjunto infinito y es el conjunto prototipo de contabilidad.
+
+**Desarrollo:**
+Supongamos que tenemos dos conjuntos contables, \(A\) y \(B\). Como ambos son contables, podemos enumerar sus elementos. Supongamos que:
+\[ A = \{a_1, a_2, a_3, ...\} \]
+\[ B = \{b_1, b_2, b_3, ...\} \]
+
+Ahora, queremos mostrar que la unión \(A \cup B\) también es contable. Para hacer esto, podemos intentar enumerar los elementos de \(A \cup B\).
+
+Una forma de hacerlo es enumerar primero todos los elementos de \(A\) y luego todos los elementos de \(B\). Sin embargo, esto no garantiza que no haya repeticiones si \(A\) y \(B\) tienen elementos en común.
+
+Una mejor estrategia es intercalar los elementos de \(A\) y \(B\). Es decir, tomamos el primer elemento de \(A\), luego el primer elemento de \(B\), luego el segundo elemento de \(A\), luego el segundo elemento de \(B\), y así sucesivamente.
+
+La enumeración quedaría así:
+\[ a_1, b_1, a_2, b_2, a_3, b_3, ... \]
+
+De esta manera, hemos enumerado todos los elementos de \(A \cup B\) sin dejar ninguno fuera y sin repetir ninguno. Por lo tanto, hemos mostrado que \(A \cup B\) es contable.
+
+**Conclusión:**
+La unión de dos conjuntos contables sigue siendo contable. Esto es una propiedad fundamental de los conjuntos contables y es crucial para muchos resultados en teoría de conjuntos y matemáticas en general.
+
+> Con conjunto infinito es indepedientemente un conjunto contable?
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 18**
+Consigna:
+Muestre que, si \( X \) es un conjunto incontable e \( Y \) es un conjunto contable, entonces \( X-Y \) debe ser incontable.
+
+Respuesta:
+\[ |R - N| = |R| \]
+\[ |R - N| \leq |R| \]
+usando identidad
+\[ |R| \leq |R - N| \]
+usando función que no permita los naturales ej: \( n+1 \)
+
+**Explicación detallada**:
+
+
+
+El ejercicio nos pide demostrar una propiedad sobre conjuntos incontables y contables. Comencemos por definir estos términos:
+
+- **Conjunto contable**: Un conjunto que puede ser puesto en correspondencia uno a uno con el conjunto de números naturales. Por ejemplo, el conjunto de números enteros es contable.
+
+- **Conjunto incontable**: Un conjunto que no puede ser puesto en correspondencia uno a uno con el conjunto de números naturales. Un ejemplo clásico es el conjunto de números reales entre 0 y 1.
+
+La consigna nos dice que si tenemos un conjunto incontable \( X \) y le quitamos un conjunto contable \( Y \), el resultado \( X-Y \) sigue siendo incontable.
+
+Para demostrar esto, se toma un ejemplo específico: el conjunto de números reales \( R \) como nuestro conjunto incontable \( X \) y el conjunto de números naturales \( N \) como nuestro conjunto contable \( Y \).
+
+1. **Primera afirmación**: \( |R - N| = |R| \)
+   Esta afirmación nos dice que si quitamos todos los números naturales de los números reales, la cantidad de elementos (cardinalidad) sigue siendo la misma. Esto tiene sentido porque, aunque los números naturales son infinitos, son "menos infinitos" que los números reales. Por ejemplo, entre 0 y 1 hay infinitos números decimales que no son naturales.
+
+2. **Segunda afirmación**: \( |R - N| \leq |R| \)
+   Esta es una afirmación obvia. Si quitamos elementos de un conjunto, su cardinalidad no puede aumentar; como máximo, se mantiene igual.
+
+3. **Tercera afirmación usando identidad**: \( |R| \leq |R - N| \)
+   Esta afirmación nos dice que la cardinalidad de los números reales es, como máximo, igual a la cardinalidad de los números reales sin los naturales. Esto puede parecer contradictorio, pero no lo es. Aunque estemos quitando elementos, la cantidad de elementos que quedan sigue siendo tan grande como el conjunto original.
+
+4. **Función que no permita los naturales**: \( n+1 \)
+   Esta es una forma de mostrar que podemos mapear los números naturales a otro conjunto sin incluir ningún número natural. Si a cada número natural \( n \) le sumamos 1, obtenemos otro número que no es natural. Esto refuerza la idea de que hay muchos más números reales que naturales.
+
+En resumen, el ejercicio demuestra que si tienes un conjunto incontable y le quitas un conjunto contable, el resultado sigue siendo incontable. Es una forma de entender la "magnitud" de la infinitud de los números reales en comparación con la infinitud de los números naturales.
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
 
+### **Ejercicio 19**
+**Consigna:**
+Mostrar que un conjunto puede tener la misma cardinalidad que un subconjunto propio de sí mismo.
+
+**Respuesta:**
+P es el conjunto de los naturales pares.
+|P| = |N|
+|P| ≤ |N| usando la función identidad.
+|N| ≤ |P| usando una función que convierta el natural a un número par, por ejemplo: \( f(n) = n \times 2 \).
+
+
+**Respuesta y explicación detallada:**
+
+1. **Concepto de Cardinalidad:** 
+   - La cardinalidad de un conjunto se refiere al número de elementos que contiene. Cuando hablamos de conjuntos finitos, la cardinalidad es simplemente el número de elementos en el conjunto. Sin embargo, cuando tratamos con conjuntos infinitos, la definición de cardinalidad se vuelve más compleja.
+   - Dos conjuntos tienen la misma cardinalidad si hay una correspondencia biunívoca (uno a uno) entre sus elementos. Esto significa que cada elemento de un conjunto se puede emparejar con exactamente un elemento del otro conjunto y viceversa, sin dejar ningún elemento sin emparejar en ninguno de los conjuntos.
+
+2. **Conjuntos Infinitos y Subconjuntos Propios:**
+   - Un subconjunto propio es un subconjunto que no es igual al conjunto original. Es decir, contiene menos elementos que el conjunto del que proviene.
+   - Intuitivamente, podríamos pensar que un conjunto infinito siempre tiene más elementos que cualquiera de sus subconjuntos propios. Sin embargo, esto no es necesariamente cierto para todos los conjuntos infinitos.
+
+3. **Ejemplo con Números Naturales y Números Pares:**
+   - Consideremos el conjunto de todos los números naturales, que denotaremos como \( N \). Esto incluye todos los números enteros no negativos: \( N = \{0, 1, 2, 3, ...\} \).
+   - Ahora, consideremos el conjunto de todos los números naturales pares, que denotaremos como \( P \). Esto incluye números como: \( P = \{0, 2, 4, 6, ...\} \).
+   - Es evidente que \( P \) es un subconjunto propio de \( N \) porque \( P \) no incluye ningún número impar.
+
+4. **Estableciendo una Correspondencia Biunívoca:**
+   - A pesar de que \( P \) es un subconjunto propio de \( N \), podemos establecer una correspondencia uno a uno entre \( N \) y \( P \).
+   - Para hacer esto, simplemente multiplicamos cada número natural por 2. Esta función, \( f(n) = n \times 2 \), empareja cada elemento de \( N \) con un elemento único en \( P \).
+     - Por ejemplo:
+       - \( f(0) = 0 \)
+       - \( f(1) = 2 \)
+       - \( f(2) = 4 \)
+       - \( f(3) = 6 \)
+       - ... y así sucesivamente.
+   - Como cada número natural tiene un par correspondiente y viceversa, hemos establecido una correspondencia biunívoca entre \( N \) y \( P \).
+
+5. **Conclusión:**
+   - Aunque \( P \) es un subconjunto propio de \( N \), ambos conjuntos tienen la misma cardinalidad. Esto es un resultado sorprendente y es un ejemplo de las propiedades no intuitivas de los conjuntos infinitos.
+   - En resumen, es posible que un conjunto infinito tenga la misma cardinalidad que uno de sus subconjuntos propios, como hemos demostrado con el ejemplo de los números naturales y los números pares.
+
+<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
+' height="10" width="100%">
 
 
 
 # Práctica 2 MT
 
+---
 
 
 # Práctica 3 Equivalencia de Modelos
