@@ -12,9 +12,12 @@
             color: white;
             
         }
-      body.dark-mode strong ,body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+      body.dark-mode strong ,body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6{
             color: white;
         }
+      body.dark-mode blockquote{
+         filter: invert(1);
+      }
         button{
          font-family: 'Roboto', sans-serif;
          font-size: 14px;
