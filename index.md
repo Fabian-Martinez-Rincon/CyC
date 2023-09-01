@@ -1,39 +1,38 @@
 <div align="center"> 
 
 <style>
-        body {
-            background-color: white;
-            color: black;
-            transition: background-color 0.5s, color 0.5s; /* Esto añade una suave transición al cambiar los colores */
-        }
+   body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.5s, color 0.5s; /* Esto añade una suave transición al cambiar los colores */
+   }
 
-        body.dark-mode {
-            background-color: #1E2021;
-            color: white;
-            
-        }
-      body.dark-mode strong ,body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6{
-            color: white;
-        }
-      body.dark-mode blockquote{
-         filter: invert(1);
-      }
-        button{
-         font-family: 'Roboto', sans-serif;
-         font-size: 14px;
-         font-weight: bolt;
-         background: #1e90FF;
-         width: 100px;
-         padding: 7px;
-         text-align: center;
-         text-decoration: none;
-         text-transform: uppercase;
-         color: #fff;
-         border-radius: 6px;
-         cursor: pointer;
-         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        }
-    </style>
+   body.dark-mode {
+      background-color: #1E2021;
+      color: white;
+   }
+   body.dark-mode strong ,body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6{
+   color: white;
+   }
+   body.dark-mode blockquote{
+      filter: invert(1);
+   }
+   button{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: bolt;
+      background: #1e90FF;
+      width: 100px;
+      padding: 7px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+   }
+</style>
 
 
 
@@ -87,8 +86,6 @@
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
-
-
 
 
 
