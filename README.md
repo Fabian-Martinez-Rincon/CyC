@@ -20,6 +20,7 @@
 - [Explicaciones Teoricas](https://youtube.com/playlist?list=PLH8A0IjFldaGLATsgRdmPBtiNcp5KmAHo)
 - Parcial 22/11/2023
 - [Drive 2023](https://drive.google.com/drive/folders/1mNm_nba9il7KAgwj2YnQAqEJ9tF0PlKl)
+- [Web Para hacer la practica de Turing](/Documentos/SimuladorMT/index.html)
 - [Practica 1 Lógica y Cardinalidad](https://fabian-martinez-rincon.github.io/CyC/Documentos/practica1.html)
 - [Practica 2 MT]()
 

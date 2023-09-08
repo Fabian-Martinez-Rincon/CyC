@@ -1,0 +1,14 @@
+MT: Zigzag. Agregando '1' a derecha y '0' a izquierda
+
+q0, 0
+q0, 0, D
+q0, 1
+q0, 1, D
+q0, B
+q1, 1, I
+q1, 0
+q1, 0, I
+q1, 1
+q1, 1, I
+q1, B
+q0, 0, D

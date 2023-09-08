@@ -1,0 +1,15 @@
+MT: n ceros seguido de n unos
+
+q0, 0,   B
+q0, 0,D, 0,D
+
+q0, 1,   B
+q1, 1,S, B,I
+
+q1, 1,   0
+q1, 1,D, 0,I
+
+q1, B,   B
+qA, B,S, B,S
+
+//faltan incluir todas las transiciones a qR

@@ -1,0 +1,44 @@
+MT: Contador binario en la cinta 2
+
+// Cuenta la cantidad de '1' en el input (cinta 1)
+// El contador queda en la cinta 2 expresado en binario
+// por ejemplo, si el input es '0110001'
+// en la cinta 2 va a quedar '11' (3 en binario)
+
+q0, 0,   B
+q0, 0,D, B,S
+
+q0, 0,   1
+q0, 0,D, 1,S
+
+q0, 1,   B
+q2, 1,S, B,S
+
+q0, 1,   1
+q2, 1,S, 1,S
+
+q0, B,   B
+qd, B,S, 0,S
+
+q0, B,   1
+qd, B,S, 1,S
+
+q2, 1,   0
+q2, 1,S, 0, D
+
+q2, 1,   1
+q2, 1,S, 1, D
+
+q2, 1,   B
+q1, 1,S, B, I
+
+q1, 1,   1
+q1, 1,S, 0, I
+
+q1, 1,   0
+q0, 1,D, 1, S
+
+q1, 1,   B
+q0, 1,D, 1, S
+
+

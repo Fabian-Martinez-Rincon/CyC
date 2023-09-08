@@ -1,0 +1,50 @@
+#editor_container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#machine{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (max-width: 1080px){
+	#editor_container{
+		width: 100%;
+	}
+}
+
+#speed_bar{
+	background: #2980b9;
+}
+#speed_column{
+	margin-top: 10px;
+}
+
+#menu_column{
+	margin-top: 10px;
+}
+
+.estadoMT{
+   color: yellow;
+   font-weight: bold;
+   background-color:crimson;
+   border-radius: 10%;
+}
+
+.estadoMT-grande{
+	text-align: center;
+	font-size: 70px; 
+	margin-bottom: 20px; 
+	padding-bottom: 20px;
+}
+
+.nro{
+	color: blue;
+}
+
+.delta{
+	color: green;
+	font-family: 'Courier New', Courier, monospace;
+}
