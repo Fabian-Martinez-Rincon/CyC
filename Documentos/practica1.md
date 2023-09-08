@@ -1,111 +1,42 @@
-<div align="center"> 
-
-<style>
-   body {
-      background-color: white;
-      color: black;
-      transition: background-color 0.5s, color 0.5s; /* Esto añade una suave transición al cambiar los colores */
-   }
-
-   body.dark-mode {
-      background-color: #1E2021;
-      color: white;
-   }
-   body.dark-mode strong ,body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6{
-   color: white;
-   }
-   body.dark-mode blockquote{
-      filter: invert(1);
-   }
-   button{
-      font-family: 'Roboto', sans-serif;
-      font-size: 14px;
-      font-weight: bolt;
-      background: #1e90FF;
-      width: 100px;
-      padding: 7px;
-      text-align: center;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: #fff;
-      border-radius: 6px;
-      cursor: pointer;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-   }
-</style>
-
-
-
-<script>
-    function toggleDarkMode() {
-        const body = document.body;
-        if (body.classList.contains('dark-mode')) {
-            body.classList.remove('dark-mode');
-        } else {
-            body.classList.add('dark-mode');
-        }
-    }
-</script>
-
-<img src='https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat'>
-
-<img src='https://img.shields.io/github/stars/Fabian-Martinez-Rincon/Computabilidad-y-Complejidad'>
-<img src='https://img.shields.io/github/repo-size/Fabian-Martinez-Rincon/Computabilidad-y-Complejidad'>
-
-
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=1200&pause=1000&color=F78E23&center=true&width=635&lines=Computabilidad-y-Complejidad"/>
-
-
-
-<a title="" href="https://cafecito.app/ei-materias"><img src="/Documentos/Cafecito.png" alt="" /></a>
-
-</div>
-
-> En este repo use como base las practicas de [fotscode](https://github.com/fotscode)
-
-<div align='center'>
-<button onclick="toggleDarkMode()">Oscuro</button>
-<a href='https://github.com/Fabian-Martinez-Rincon/CyC/tree/main'><button style='background: #ecec00'> ⭐ </button></a>
-<a href='https://github.com/Fabian-Martinez-Rincon'><button style='background: #000000'>Github</button></a>
-
-<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%"></div>
-
-
-- Parcial 22/11/2023
-- [Drive 2023](https://drive.google.com/drive/folders/1mNm_nba9il7KAgwj2YnQAqEJ9tF0PlKl)
-- [Practica 1 Lógica y Cardinalidad](#práctica-1-logica-y-cardinalidad)
-- [Practica 2 MT](#práctica-2-mt)
-- [Practica 3 Equivalencia de Modelos](#práctica-3-equivalencia-de-modelos)
-- [Practica 4 Caracterización de Lenguajes](#práctica-4-caracterización-de-lenguajes)
-- [Practica 5 Reducibilidad](#práctica-5-reducibilidad)
-- [Practica 6 Notación Asintótica](#práctica-6-notación-asintótica)
-- [Practica 7 Complejidad Temporal](#práctica-7-complejidad-temporal)
-- [Practica 8 Análisis de Algoritmos](#práctica-8-análisis-de-algoritmos)
-
-<img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
-' height="10" width="100%">
-
-
-
 # Práctica 1 Logica y Cardinalidad 
 
+---
 
+- [Ejercicio 1](#ejercicio-1)
+- [Ejercicio 2](#ejercicio-2)
+- [Ejercicio 3](#ejercicio-3)
+- [Ejercicio 4](#ejercicio-4)
+- [Ejercicio 5](#ejercicio-5)
+- [Ejercicio 6](#ejercicio-6)
+- [Ejercicio 7](#ejercicio-7)
+- [Ejercicio 8](#ejercicio-8)
+- [Ejercicio 9](#ejercicio-9)
+- [Ejercicio 10](#ejercicio-10)
+- [Ejercicio 11](#ejercicio-11)
+- [Ejercicio 12](#ejercicio-12)
+- [Ejercicio 13](#ejercicio-13)
+- [Ejercicio 14](#ejercicio-14)
+- [Ejercicio 15](#ejercicio-15)
+- [Ejercicio 16](#ejercicio-16)
+- [Ejercicio 17](#ejercicio-17)
+- [Ejercicio 18](#ejercicio-18)
+- [Ejercicio 19](#ejercicio-19)
 
 ---
 
 ### **Ejercicio 1**
-- **Consigna:** Probar la siguiente ley distributiva \( A \lor (B \land C) = (A \lor B) \land (A \lor C) \)
-- **Respuesta:**
-   - \( A \lor (B \land C) \)
-   - \( x \in A \lor (x \in B \land x \in C) \)
-   - \( x \in A \lor x \in (B \land C) \)
-   - \( x \in (A \lor B) \land x \in (A \lor C) \)
-   - \( (x \in A \lor x \in B) \land (x \in A \lor x \in C) \)
-   - \( (A \lor B) \land (A \lor C) \)
 
-**Explicación:**
+**Consigna:** Probar la siguiente ley distributiva \( A \lor (B \land C) = (A \lor B) \land (A \lor C) \)
+
+**Respuesta**
+- \( A \lor (B \land C) \)
+- \( x \in A \lor (x \in B \land x \in C) \)
+- \( x \in A \lor x \in (B \land C) \)
+- \( x \in (A \lor B) \land x \in (A \lor C) \)
+- \( (x \in A \lor x \in B) \land (x \in A \lor x \in C) \)
+- \( (A \lor B) \land (A \lor C) \)
+
+**Explicación**
 
 Aquí, estamos tratando con operaciones de conjuntos. Los símbolos representan:
 - \( \lor \): Unión de conjuntos.
@@ -113,28 +44,25 @@ Aquí, estamos tratando con operaciones de conjuntos. Los símbolos representan:
 
 La consigna nos pide demostrar que la unión de un conjunto \( A \) con la intersección de los conjuntos \( B \) y \( C \) es igual a la intersección de la unión de \( A \) con \( B \) y la unión de \( A \) con \( C \).
 
-**Desglose de la Respuesta:**
+**Desglose de la Respuesta**
 
-1. \( A \lor (B \land C) \)
-   - Esta es la expresión original que queremos probar.
+\( A \lor (B \land C) \)
+Esta es la expresión original que queremos probar.
 
-2. \( x \in A \lor (x \in B \land x \in C) \)
-   - Aquí, estamos descomponiendo la expresión en términos de pertenencia de un elemento \( x \). Esto significa que \( x \) pertenece a \( A \) o \( x \) pertenece tanto a \( B \) como a \( C \).
+\( x \in A \lor (x \in B \land x \in C) \)
+Aquí, estamos descomponiendo la expresión en términos de pertenencia de un elemento \( x \). Esto significa que \( x \) pertenece a \( A \) o \( x \) pertenece tanto a \( B \) como a \( C \).
 
-3. \( x \in A \lor x \in (B \land C) \)
-   - Esta es una reescritura del paso anterior, agrupando la intersección de \( B \) y \( C \).
+\( x \in A \lor x \in (B \land C) \)
+Esta es una reescritura del paso anterior, agrupando la intersección de \( B \) y \( C \).
 
-4. \( x \in (A \lor B) \land x \in (A \lor C) \)
-   - Aquí, estamos distribuyendo la unión sobre la intersección. Esto significa que \( x \) pertenece a la unión de \( A \) y \( B \) y también pertenece a la unión de \( A \) y \( C \).
+\( x \in (A \lor B) \land x \in (A \lor C) \)
+Aquí, estamos distribuyendo la unión sobre la intersección. Esto significa que \( x \) pertenece a la unión de \( A \) y \( B \) y también pertenece a la unión de \( A \) y \( C \).
 
-5. \( (x \in A \lor x \in B) \land (x \in A \lor x \in C) \)
-   - Nuevamente, estamos descomponiendo la expresión en términos de pertenencia de un elemento \( x \).
+\( (x \in A \lor x \in B) \land (x \in A \lor x \in C) \)
+Nuevamente, estamos descomponiendo la expresión en términos de pertenencia de un elemento \( x \).
 
-6. \( (A \lor B) \land (A \lor C) \)
-   - Finalmente, llegamos a la expresión que queríamos probar, que es equivalente a la expresión original.
-
-En resumen, la respuesta demuestra que la unión de \( A \) con la intersección de \( B \) y \( C \) es, de hecho, igual a la intersección de la unión de \( A \) con \( B \) y la unión de \( A \) con \( C \). Esto se hace descomponiendo las operaciones de conjunto en términos de pertenencia de elementos y reorganizando las expresiones.
-
+\( (A \lor B) \land (A \lor C) \)
+Finalmente, llegamos a la expresión que queríamos probar, que es equivalente a la expresión original.
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
@@ -142,31 +70,29 @@ En resumen, la respuesta demuestra que la unión de \( A \) con la intersección
 
 
 ### **Ejercicio 2**
-- **Consigna:** Probar la siguiente ley de Morgan: El Complemento de \(A \cup B\) es igual al complemento de \(A\) intersección el complemento de \(B\).
-- **Respuesta:** 
-  \[
-  (A \cup B)^c \Leftrightarrow \neg(x \in A \lor x \in B) \Leftrightarrow x \notin A \land x \notin B \Leftrightarrow A^c \cap B^c
-  \]
+**Consigna** Probar la siguiente ley de Morgan: El Complemento de \(A \cup B\) es igual al complemento de \(A\) intersección el complemento de \(B\).
+
+**Respuesta**
+\[(A \cup B)^c \Leftrightarrow \neg(x \in A \lor x \in B) \Leftrightarrow x \notin A \land x \notin B \Leftrightarrow A^c \cap B^c
+\]
 
 **Explicación**
-
-¡Claro! Vamos a desglosar la solución del ejercicio 2 paso a paso:
 
 **Ley de Morgan:** El Complemento de \(A \cup B\) es igual al complemento de \(A\) intersección el complemento de \(B\).
 
 Para probar esto, vamos a comenzar con el lado izquierdo de la ecuación y tratar de llegar al lado derecho.
 
-1. **Inicio:** \( (A \cup B)^c \)
-   - Aquí estamos tomando el complemento de la unión de los conjuntos \(A\) y \(B\). Es decir, estamos buscando todos los elementos que no están ni en \(A\) ni en \(B\).
+**Inicio:** \( (A \cup B)^c \)
+Aquí estamos tomando el complemento de la unión de los conjuntos \(A\) y \(B\). Es decir, estamos buscando todos los elementos que no están ni en \(A\) ni en \(B\).
 
-2. **Traducción a lógica proposicional:** \( \neg(x \in A \lor x \in B) \)
-   - Aquí estamos diciendo que un elemento \(x\) no pertenece a \(A\) y tampoco pertenece a \(B\). En términos de lógica proposicional, esto se traduce como la negación de la declaración "x está en A o x está en B".
+**Traducción a lógica proposicional:** \( \neg(x \in A \lor x \in B) \)
+Aquí estamos diciendo que un elemento \(x\) no pertenece a \(A\) y tampoco pertenece a \(B\). En términos de lógica proposicional, esto se traduce como la negación de la declaración "x está en A o x está en B".
 
-3. **Aplicación de las propiedades de la lógica:** \( x \notin A \land x \notin B \)
-   - Usando las propiedades de la lógica proposicional, podemos reescribir la declaración anterior como "x no está en A y x no está en B".
+**Aplicación de las propiedades de la lógica:** \( x \notin A \land x \notin B \)
+Usando las propiedades de la lógica proposicional, podemos reescribir la declaración anterior como "x no está en A y x no está en B".
 
-4. **Traducción de vuelta a notación de conjuntos:** \( A^c \cap B^c \)
-   - Finalmente, traducimos la declaración lógica de vuelta a notación de conjuntos. Aquí, \(A^c\) representa el complemento de \(A\) (todos los elementos que no están en \(A\)) y \(B^c\) representa el complemento de \(B\). La intersección de estos dos conjuntos (\( \cap \)) nos da todos los elementos que no están ni en \(A\) ni en \(B\), que es exactamente lo que estábamos buscando.
+**Traducción de vuelta a notación de conjuntos:** \( A^c \cap B^c \)
+Finalmente, traducimos la declaración lógica de vuelta a notación de conjuntos. Aquí, \(A^c\) representa el complemento de \(A\) (todos los elementos que no están en \(A\)) y \(B^c\) representa el complemento de \(B\). La intersección de estos dos conjuntos (\( \cap \)) nos da todos los elementos que no están ni en \(A\) ni en \(B\), que es exactamente lo que estábamos buscando.
 
 Por lo tanto, hemos demostrado que el complemento de la unión de dos conjuntos es igual a la intersección de sus complementos, que es la Ley de Morgan para conjuntos.
 
@@ -174,12 +100,12 @@ Por lo tanto, hemos demostrado que el complemento de la unión de dos conjuntos 
 ' height="10" width="100%">
 
 ### **Ejercicio 3**
-- **Consigna:** Probar que el complemento del complemento de A es igual a A.
-- **Respuesta:** 
-  - \( \neg \neg A \)
-  - \( \neg (x \notin A) \)
-  - \( x \in A \)
-  - \( A \)
+**Consigna:** Probar que el complemento del complemento de A es igual a A.
+**Respuesta** 
+- \( \neg \neg A \)
+- \( \neg (x \notin A) \)
+- \( x \in A \)
+- \( A \)
 
 Esto significa que si tomas el complemento de un conjunto A (todos los elementos que no están en A) y luego tomas el complemento de ese resultado, obtendrás el conjunto A original. Es una propiedad fundamental de los conjuntos y sus complementos.
 
@@ -188,18 +114,23 @@ Esto significa que si tomas el complemento de un conjunto A (todos los elementos
 
 
 ### **Ejercicio 4**
-- **Consigna:** Sea A el conjunto de los números naturales tales que, si son mayores que 5 o bien terminan en 5, entonces contienen algún dígito 1 ó 2.
-  - **a)** Cuáles de los siguientes números pertenecen a A: 3, 5, 10, 15, 30, -10
-  - **b)** Expresar el enunciado como una fórmula proposicional donde m significa "mayores que 5", t es "terminan en 5", u es "contiene algún dígito 1" y d es "contiene algún dígito 2".
-  - **c)** Transformar la fórmula del inciso anterior de manera que no tenga una implicación y aplicar una ley
-de Morgan al resultado. Expresarlo en una frase
-- **Respuesta:**
-  - **a)** 3, 10, 15
-  - **b)** \( (m \vee t) \rightarrow (u \vee d) \)
-  - **c)** \( \neg(m \vee t) \vee (u \vee d) = (\neg m \wedge \neg t) \vee (u \vee d) \)
-  - Frase: Números tales que no sean mayores que 5 y no terminen en 5 o que contengan un dígito 1 o 2.
 
-¡Por supuesto! Vamos a desglosar el ejercicio 4 paso a paso:
+**Consigna:** Sea A el conjunto de los números naturales tales que, si son mayores que 5 o bien terminan en 5, entonces contienen algún dígito 1 ó 2.
+
+**a)** Cuáles de los siguientes números pertenecen a A: 3, 5, 10, 15, 30, -10
+> 3, 10, 15
+
+**b)** Expresar el enunciado como una fórmula proposicional donde m significa "mayores que 5", t es "terminan en 5", u es "contiene algún dígito 1" y d es "contiene algún dígito 2".
+
+> \( (m \vee t) \rightarrow (u \vee d) \)
+
+**c)** Transformar la fórmula del inciso anterior de manera que no tenga una implicación y aplicar una ley de Morgan al resultado. Expresarlo en una frase
+
+> \( \neg(m \vee t) \vee (u \vee d) = (\neg m \wedge \neg t) \vee (u \vee d) \)
+
+Frase: Números tales que no sean mayores que 5 y no terminen en 5 o que contengan un dígito 1 o 2.
+
+
 
 **Explicación**
 
@@ -241,37 +172,28 @@ Esta parte transforma la fórmula anterior eliminando la implicación y utilizan
 ### **Ejercicio 5**
 
 **Consigna:**
-Sean:
+Sean
 - \( X = \{x/x \in N, x \) es impar\(\} \)
 - \( Y = \{y/y \in N, y \) es primo\(\} \)
 - \( Z = \{z/z \in N, z \) es múltiplo de 3\(\} \)
 
 Describir cada uno de los siguientes conjuntos:
-a) \( X \cap Y \)
-b) \( X \cap Z \)
-c) \( Y \cap Z \)
-d) \( Z - Y \)
-e) \( X - (Y \cap Z) \)
-f) \( (Y \cap Z) - X \)
-g) \( X \cup Y \)
+a)  \( X \cap Y = Y \)
+b)  \( X \cap Z = \{w/w \in N, w = 3x, x \in N, x = 2k + 1, k \in N\} \)
+c)  \( Y \cap Z = \{3\} \)
+d)  \( Z - Y = Z - \{3\} \)
+e)  \( X - (Y \cap Z) = X - \{3\} \)
+f)  \( (Y \cap Z) - X = \emptyset \)
+g)  \( X \cup Y = X \)
 
-**Respuesta:**
-a) \( X \cap Y = Y \)
-b) \( X \cap Z = \{w/w \in N, w = 3x, x \in N, x = 2k + 1, k \in N\} \)
-c) \( Y \cap Z = \{3\} \)
-d) \( Z - Y = Z - \{3\} \)
-e) \( X - (Y \cap Z) = X - \{3\} \)
-f) \( (Y \cap Z) - X = \emptyset \)
-g) \( X \cup Y = X \)
 
 **Explicación:**
 
-¡Claro! Vamos a desglosar cada uno de los conjuntos resultantes:
+**\( X \cap Y = Y \)**
 
-1. **\( X \cap Y = Y \)**
-   - \( X \) es el conjunto de números impares.
-   - \( Y \) es el conjunto de números primos.
-   - Al intersectar ambos conjuntos, obtenemos que todos los números primos (excepto el 2, que es el único número primo par) son impares. Por lo tanto, la intersección de \( X \) y \( Y \) es simplemente el conjunto \( Y \) sin el número 2.
+\( X \) es el conjunto de números impares. \( Y \) es el conjunto de números primos.
+
+Al intersectar ambos conjuntos, obtenemos que todos los números primos (excepto el 2, que es el único número primo par) son impares. Por lo tanto, la intersección de \( X \) y \( Y \) es simplemente el conjunto \( Y \) sin el número 2.
 
 2. **\( X \cap Z \)**
    - \( X \) es el conjunto de números impares.
@@ -888,36 +810,4 @@ P es el conjunto de los naturales pares.
 
 <img src= 'https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7eebf649-e558-43e2-ad5f-9977dc5ff3e5
 ' height="10" width="100%">
-
-
-
-# Práctica 2 MT
-
----
-
-
-# Práctica 3 Equivalencia de Modelos
-
-
-
-# Práctica 4 Caracterización de Lenguajes
-
-
-
-# Práctica 5 Reducibilidad
-
-
-
-# Práctica 6 Notación Asintótica
-
-
-
-# Práctica 7 Complejidad Temporal
-
-
-
-# Práctica 8 Análisis de Algoritmos
-
-
-
 
